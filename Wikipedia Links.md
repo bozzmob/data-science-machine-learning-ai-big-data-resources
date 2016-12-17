@@ -4,6 +4,13 @@ Here is a non-exaustive, work in progress list of Wikipedia links related to sta
 
 Note that some links are categorized according to my determination of best fit since some topics may span multiple categories.
 
+## Architecture
+- [Enterprise architecture](https://en.wikipedia.org/wiki/Enterprise_architecture)
+- [Data governance](https://en.wikipedia.org/wiki/Data_governance)
+
+## Methodologies
+- [MIKE 2.0 - Method for an Integrated Knowledge Environment](https://en.wikipedia.org/wiki/MIKE2.0_methodology)
+
 ## Statistics and Analysis
 - [Statistics portal](https://en.wikipedia.org/wiki/Portal:Statistics)
 - [ANOVA - Analysis of variance](https://en.m.wikipedia.org/wiki/Analysis_of_variance)
@@ -56,6 +63,8 @@ Note that some links are categorized according to my determination of best fit s
 ## Artificial Intelligence
 - [Artificial intelligence portal](https://en.wikipedia.org/wiki/Portal:Artificial_intelligence)
 - [Artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence)
+- [Artificial general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
+- [Weak AI](https://en.wikipedia.org/wiki/Weak_AI)
 - [Evolutionary algorithm](https://en.wikipedia.org/wiki/Evolutionary_algorithm)
 - [Evolutionary computing](https://en.wikipedia.org/wiki/Evolutionary_computation)
 - [Artificial neural network](https://en.wikipedia.org/wiki/Artificial_neural_network)
@@ -86,7 +95,11 @@ Note that some links are categorized according to my determination of best fit s
 - [Big Data](https://en.wikipedia.org/wiki/Big_data)
 - [Information of Things (IoT)](https://en.wikipedia.org/wiki/Internet_of_things)
 - [Complex event processing](https://en.wikipedia.org/wiki/Complex_event_processing)
-- [Extract, transform, load](https://en.wikipedia.org/wiki/Extract,_transform,_load)
+- [Extract, transform, load (ETL)](https://en.wikipedia.org/wiki/Extract,_transform,_load)
+- [Extract, load, transform (ELT)](https://en.wikipedia.org/wiki/Extract,_load,_transform)
+- [Data integration](https://en.wikipedia.org/wiki/Data_integration)
+- [Information integration](https://en.wikipedia.org/wiki/Information_integration)
+- [OLAP Cube](https://en.wikipedia.org/wiki/OLAP_cube)
 
 ## Data Storage, Querying, and CRUD
 - [Data warehouse](https://en.wikipedia.org/wiki/Data_warehouse)
@@ -97,6 +110,12 @@ Note that some links are categorized according to my determination of best fit s
 - [OLAP](https://en.wikipedia.org/wiki/Online_analytical_processing)
 - [OLTP](https://en.wikipedia.org/wiki/Online_transaction_processing)
 - [Federated database system](https://en.wikipedia.org/wiki/Federated_database_system)
+
+## Data Modeling and Schemas
+- Data marts
+    + [Star schema](https://en.wikipedia.org/wiki/Star_schema)
+    + [Reverse star schema](https://en.wikipedia.org/wiki/Reverse_star_schema)
+    + [Snowflake schema](https://en.wikipedia.org/wiki/Snowflake_schema)
 
 ## Optimization
 - [Mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization)
@@ -116,6 +135,7 @@ Note that some links are categorized according to my determination of best fit s
 ## Computer Science and Information Theory
 - [Computer science portal](https://en.wikipedia.org/wiki/Portal:Computer_science)
 - [Information theory](https://en.wikipedia.org/wiki/Information_theory)
+- [Directed acyclic graph (DAG)](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
 
 ## Software Architecture and Design Patterns
 - [Multitenancy](https://en.wikipedia.org/wiki/Multitenancy)
@@ -132,4 +152,9 @@ Note that some links are categorized according to my determination of best fit s
 - [Control system](https://en.wikipedia.org/wiki/Control_system)
 - [Control engineering](https://en.wikipedia.org/wiki/Control_engineering)
 - [PID controller](https://en.wikipedia.org/wiki/PID_controller)
+
+## Business
+- [Knowledge management](https://en.wikipedia.org/wiki/Knowledge_management)
+- [Information management](https://en.wikipedia.org/wiki/Information_management)
+- [Enterprise information management](https://en.wikipedia.org/wiki/Enterprise_information_management)
 

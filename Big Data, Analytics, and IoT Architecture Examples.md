@@ -1,38 +1,8 @@
-# Cloud and Big Data Architectures
+# Big Data, Analytics, and IoT Architecture Examples
 
-## Big Data and Analytics Overview
-- [Four V's](http://www.ibmbigdatahub.com/infographic/four-vs-big-data)
-    + Volume - Scale of data
-    + Variety - Different forms of data
-    + Velocity - Analysis of streaming data
-    + Veracity - Uncertainty of data
-- Additional V's
-    + Visualization
-    + Value
-    + Variability
-- Considerations
-    - Data batching vs. streaming
-    - Embedded models or interfaces
-    - API or RPC or REST
-    - Deployed trained models (batch) vs. [real-time/streaming/online machine learning](https://en.wikipedia.org/wiki/Online_machine_learning)
-    - Reliable quality data
-- Solution elements
-    + Data sources: real time measurement, events, IoT, and so on
-    + Raw data extraction, collection, and ingestion
-    + Data preparation, processing, cleaning, normalization, and standardization
-    + Data transformation and aggregation
-    + Data storage
-    + Data comsumption, visualization, and analysis
-    + Prediction and prescription
-    + Asynchronous messaging
-    + Actionable insights
-    + Deployed model monitoring and performance measurement
-- Data Analytics
-    + Descriptive analytics - What happened and why?
-    + Predictive analytics - What is the probability of something happening?
-    + Prescriptive analytics - What specific recommendations will drive business decisions and help achieve business goals (i.e., what to do if 'X' happens)
+## Architecture Guides and Examples
 
-## AWS
+**AWS**
 - [Solution Development Guides](https://aws.amazon.com/solutions)
     + Reference Architectures
         * [Web Application Hosting](http://media.amazonwebservices.com/architecturecenter/AWS_ac_ra_web_01.pdf)
@@ -73,7 +43,7 @@
     + [Startups](https://aws.amazon.com/solutions/case-studies/start-ups/)
     + [Web Apps](https://aws.amazon.com/solutions/case-studies/web-mobile-social/)
 
-## Google Cloud Platform
+**Google Cloud Platform**
 - [Big data reference architecture diagram](https://cloud.google.com/images/products/big-data/big-data-diagram.png)
 - [Solution Development Guides](https://cloud.google.com/solutions/)
     + [Media](https://cloud.google.com/solutions/media/)
@@ -86,8 +56,11 @@
     + [Websites and Web Apps](https://cloud.google.com/solutions/websites/#development_guides)
     + [Development & Test](https://cloud.google.com/solutions/dev-test/#development_guides)
 
+**IoT**
 
-## General
+Coming soon...
+
+**General**
 - [Lambda Architecture](http://lambda-architecture.net/)
 - [AWS Architecture Center](https://aws.amazon.com/architecture/?nc1=f_cc)
 - [AWS Big Data Partner Solutions](https://aws.amazon.com/big-data/partner-solutions/)
@@ -101,5 +74,88 @@
 - [Big Data Analytics Architecture](http://www.thebigdatainsightgroup.com/site/sites/default/files/Teradata's%20-%20Big%20Data%20Architecture%20-%20Putting%20all%20your%20eggs%20in%20one%20basket.pdf)
 - [What is Streaming Data?](https://aws.amazon.com/streaming-data/)
 
-## Images
-- [Big data classification](https://www.ibm.com/developerworks/library/bd-archpatterns1/fig1.png)
+## Oracle Architecture and Patterns Examples
+
+## IBM Architecture and Patterns Examples
+
+**Solution Patterns - IBM**
+- Landing Zone Warehouse
+- Virtual Tables
+- Discovery Tables
+- Streams Dynamic Warehouse
+- Streams Detail with Update
+- Direct Augmentation
+- Warehouse Augmentation
+- Streams Augmentation
+- Dynamic Search Cube
+
+**Component Patterns - IBM**
+- Source Data
+- Source Event
+- Landing Area Zone ETL
+    + Extract
+    + Normalize
+    + Clean
+- Landing Area Zone Search and Survey
+    + Find
+    + Filter
+    + Extract
+- Landing Area Zone Stream Filter
+- Landing Area Zone Stream Augmentation
+- Landing Area Zone Warehouse Augmentation
+- Landing Area Zone Index
+- Exploration Mart
+- Analytics Mart
+- Report Mart
+- Virtual Report Mart
+- Virtual Search Mart
+- Predictive Analytics
+
+**Big Data Exploration Example Architecture - IBM**
+- Applications layer
+    + Consists of
+        * Visualization
+        * Discovery
+        * Analysis
+        * Reporting
+        * Statistics
+        * Text and entity analytics
+    + Access
+        * SQL
+        * MDX
+        * Search
+        * REST
+- Discovery and assembly layer
+    + Consists of
+        * Virtual search mart
+            - Faceted search
+        * Analytics mart
+            - Report mart
+            - Discovery table
+            - Search and survey
+        * Report mart
+            - ETL
+            - Analytics
+            - Streams
+    + Access
+        * NoSQL
+        * SQL
+        * Search
+        * REST
+- Landing layer
+    + Consists of
+        * Shared warehouse and ETL
+            - Extract
+            - Provision
+    + Access
+        * Search
+        * REST
+        * SQL
+        * Files
+- Source layer
+    + Sensors and telemetry
+    + Internet
+    + Social media
+    + Public data
+    + Enterprise data
+    + ...
